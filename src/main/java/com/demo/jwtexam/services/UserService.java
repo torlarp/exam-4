@@ -53,6 +53,14 @@ public class UserService {
        
        public User  getUsers2() {
         List<User> users = new ArrayList<>();
+        
+        int a=0;
+        
+        for(int i=0;i<10;i++){
+            a=+i;
+            
+        }
+        
 
         //userRepository.findAll().forEach(users::add);
 
